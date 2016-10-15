@@ -1,0 +1,20 @@
+<section class="about">
+  <div class="main-content">
+    <h4>About</h4>
+    <div class="about-img">
+      <img class="photo circle" itemprop="image" content="{{ GRAVATAR_IMAGE }}" src="{{ GRAVATAR_IMAGE }}"/>
+      <br>
+    </div>
+    <div class="about-info">
+      <p>{{ ABOUT }}</p>
+    </div>
+  </div>
+  <div class="social">
+    <h5>Social</h5>
+    <ul class="categories">
+      {% for name, link in SOCIAL %}
+      <li><a href="{{ link }}"><i class="fa fa-{{ name|lower() }}-square fa-3x"></i></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

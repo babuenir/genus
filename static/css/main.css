@@ -406,8 +406,8 @@ hr {
 
 @font-face {
     font-family: Titillium Web;
-    src: url(theme/fonts/Titillium+Web.eot);
-    src: url(theme/fonts/Titillium+Web.eot?#iefix) format('embedded-opentype'), url(theme/fonts/Titillium+Web.woff) format('woff'), url(theme/fonts/TitilliumWeb-Regular.ttf) format('truetype'), url(theme/fonts/TitilliumWeb-Light.ttf) format('truetype'), url(theme/fonts/TitilliumWeb-ExtraLight.ttf) format('truetype'), url(theme/fonts/TitilliumWeb-SemiBold.ttf) format('truetype'), url(theme/fonts/TitilliumWeb-Bold.ttf) format('truetype'), url(theme/fonts/TitilliumWeb-SemiBoldItalic.ttf) format('truetype'), url(theme/fonts/TitilliumWeb-Black.ttf) format('truetype'), url(theme/fonts/Eltpan-n.ttf) format('truetype');
+    src: url(../fonts/Titillium+Web.eot);
+    src: url(../fonts/Titillium+Web.eot?#iefix) format('embedded-opentype'), url(../fonts/Titillium+Web.woff) format('woff'), url(../fonts/TitilliumWeb-Regular.ttf) format('truetype'), url(../fonts/TitilliumWeb-Light.ttf) format('truetype'), url(../fonts/TitilliumWeb-ExtraLight.ttf) format('truetype'), url(../fonts/TitilliumWeb-SemiBold.ttf) format('truetype'), url(../fonts/TitilliumWeb-Bold.ttf) format('truetype'), url(../fonts/TitilliumWeb-SemiBoldItalic.ttf) format('truetype'), url(../fonts/TitilliumWeb-Black.ttf) format('truetype'), url(../fonts/Eltpan-n.ttf) format('truetype');
 }
 
 body {
