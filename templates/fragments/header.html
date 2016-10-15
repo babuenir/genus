@@ -5,6 +5,11 @@
         {% else %}
         {% endif %}
     </a>
-    <h1 itemprop="name"><a href="{{ SITEURL }}">{{ SITETITLE }}</a></h1>
-    {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
+    <h1 itemprop="name"><a href="{{ SITEURL }}">{{ SITETITLE|upper() }}</a></h1>
+    {% if SITESUBTITLE %}<p class="subtitle">{{ SITESUBTITLE }}</p>{% endif %}
+    <ul class="categories">
+      <li><h5><a class="button" href="{{ SITEURL }}/category/technology.html">Technology</a>&nbsp;</h5></li>
+      <li><h5><a class="button" href="{{ SITEURL }}/category/art.html">Art</a>&nbsp;</h5></li>
+      <li><h5><a class="button" href="{{ SITEURL }}/category/literature.html">Literature</a></h5></li>
+    </ul>
 </header>
