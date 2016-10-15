@@ -717,3 +717,18 @@ article.pagination {
     color: #aaa;
     border: 1px solid #aaa;
 }
+
+.about {
+    text-align: center;
+    background: #2a3132;
+    color: #fff;
+}
+.social {
+    text-align: center;
+    background: #021c1e;
+    color: #fff;
+    padding: 20px;
+}
+.social li {
+    padding: 10px
+}
