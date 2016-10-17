@@ -2,10 +2,10 @@
 {% block title %}{{ tag|striptags }} tag // {{ super() }}{% endblock title %}
 {% block pagetitle %}Posts tagged "{{ tag }}"{% endblock pagetitle %}
 {% block content %}
-    {% include "fragments/sidebar.html" %}
+    <div class="listing">
     {% for article in articles_page.object_list %}
     {% if tag in article.tags %}
-    <article class="listing">
+    <article>
         <header>
             <h2>
                 <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
@@ -32,4 +32,6 @@
     {% endif %}
     {% endfor %}
     {% include "pagination.html" %}
+    </div>
+    {% include "fragments/sidebar.html" %}
 {% endblock %}
