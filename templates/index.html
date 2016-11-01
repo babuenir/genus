@@ -27,9 +27,11 @@
         {% else %}
             {{ article.content }}
         {% endif %}
-        <br/><br/><br/>
-        <p>Categories: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
-        <p><a class="button" href="{{ SITEURL }}/{{ article.url }}">Continue reading</a></p>
+        <div style="clear:both;">
+          <br/>
+          <p>Categories: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
+          <p><a class="button" href="{{ SITEURL }}/{{ article.url }}">Continue reading</a></p>
+        </div>
     </article>
     {% endfor %}
     {% include "pagination.html" %}
