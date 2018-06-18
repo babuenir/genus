@@ -25,7 +25,7 @@
               {{ article.summary }}
             </div>
         {% else %}
-            {{ article.content }}
+            {{ article.content|wordwrap(width=80) }}
         {% endif %}
         <div style="clear:both;">
           <br/>
