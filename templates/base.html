@@ -12,6 +12,10 @@
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="{{ SITEURL }}/static/images/favicon.ico">
     <script src="https://use.fontawesome.com/76ac647053.js"></script>
+    <script>$('#content').bind('copy paste cut drag drop', function (e) {
+    e.preventDefault();
+    });
+    </script>
     {% endblock %}
 </head>
 <body itemscope itemtype="http://schema.org/Blog">
